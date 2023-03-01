@@ -1,0 +1,487 @@
+
+body  {
+   
+    width: 100%;
+    
+    background-color: white; font-family: 'Raleway', sans-serif; margin: 0%; padding: 0%;}
+
+/*-----------------------------------Texto------------------------------------*/
+
+/*---regal----*/
+a     {font-size: 1em; text-decoration: none; margin-left: 2%; color:#000;}
+/*---regal----*/
+
+/*---topo----*/
+.top  {font-family: 'PT Sans', sans-serif; font-size: 3.5em;  line-height: 0.9em; margin-bottom: 0%}
+.top1 {font-size: 1.3em; font-weight: 100;vertical-align: top;}
+.top3 {font-size: 1.3em; border:solid #000; border-width: thin; padding: 2%; margin-left: 0%;}
+.top4 {font-size: 1.3em; border:solid #fff; border-width: thin; padding: 2%; color: white; margin-left: 0%;}
+/*---topo----*/
+
+/*---meio----*/
+.re   {font-size: 0.8em; border-width:thin;padding: 1% 4% 1% 4%; background-color: white;}
+.re1  {font-size: 0.8em; border-width: thin;padding: 1% 5% 1% 5%; margin-left: 6%; background-color: white;}
+.re2  {font-size: 1.3em; border-width: thin;padding: 0% 5% 0% 5%; margin-right: 50%; margin-left: 1%;}
+.re3  {font-size: 5em;margin-left: 5%}
+.me   {font-size: 2em;}
+.me1  {font-size: 0.8em; color: #444;}
+.me2  {font-size: 1em;}
+.me4  {font-size: 2em; font-family: 'Raleway', sans-serif; margin-left: 1%; }
+/*---meio----*/
+
+/*---sobre----*/
+.sob  {font-family: 'PT Sans', sans-serif; font-size: 3.5em;  line-height: 0.9em; margin-bottom: 0%; color: #fff;}
+.sob1 {font-size: 1.5em; color: #fff;}
+/*---sobre----*/
+
+.topp1 {font-size: 4em;width: 100%;color: #fff; text-align: center; margin-bottom: -2%;
+}
+
+/*-----------------------------------Corpo------------------------------------*/
+
+/*---regal----*/
+input    {background-color: white; color: black; width: 100%; height:40px; font-size: 1em; padding-left: 2%;}
+
+
+
+
+
+
+
+nav  {z-index: 1;
+    background:white
+        ;
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    line-height: 100px;
+    text-align:right;
+  
+      padding:0 2% 0 2%; 
+    
+   
+    
+    
+    animation-name: menu;
+    animation-duration: 2s;}
+.nav1{
+    width: 93%;
+    height:auto;
+    position: absolute;
+  
+     
+}
+ 
+img{
+        width: 7%;
+        float: left;
+        padding: ;
+        margin: 1%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+section  {padding: 5% 0%  20% 0%;}
+.tex     {margin-left: 10%;}
+/*---regal----*/
+
+
+
+/*---topo----*/
+#a       {padding: 10% 0% 25% 0%; background-color: white; float: left; width: 50%;}
+#b       { padding: 10% 0% 25% 0%; float: right; width: 50%; text-align: center; color: white;background-image: url("server-2160321.jpg");
+          background-repeat: no-repeat; background-size:cover; background-position: right; background-attachment: fixed;}
+/*---topo----*/
+
+
+
+/*---meio----*/
+#c       {
+    width: 100%; float: left; background-image: url("5.jpg");background-repeat: no-repeat; background-size:cover; background-position:left; background-attachment: fixed;
+          padding: 10% 0% 20% 0%;width: 70%;}
+#d       {height: 700px; float: right; background-color:white; padding:0 ; margin-top: 20%; width: 30%; text-align: center;vertical-align: top;}
+/*---meio----*/
+
+
+
+/*---pacote----*/
+#e{ ;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background-color:white;
+    padding: 0% 0% 17% 0%;
+    text-align: center; }
+
+
+
+.oral    {padding-bottom: 10%; text-align: center; font-size: 3em;}
+
+.d2      {border:solid rgb(107, 142, 207); border-width: thin; margin-left: 25%;margin-right: 25%;padding: 2%;}
+
+button   {margin-top: 20%; background-color: rgb(107, 142, 207); color: #fff; width: 100%; font-size: 1.4em; border: solid rgb(107, 142, 207); padding: 2% 0% 2% 0%;}
+
+.z :hover{font-size: 0.9em;color: rgb(46, 106, 184);line-break: loose;text-decoration: none;}
+
+.z       {color: black; font-size: 0.7em; text-decoration: none;}
+.basic   {margin-left: 4%; width: 25%; padding: 5% 0% 0% 0%; border: solid rgb(107, 142, 207); text-align: center;float: left; }
+
+.premiun {margin-left: 8%; width: 25%; padding: 5% 0% 0% 0%; border: solid rgb(107, 142, 207); text-align: center;float: left; right: }
+
+.gold    {margin-left: 8%; width: 25%; padding: 5% 0% 0% 0%; border: solid rgb(107, 142, 207); text-align: center; float: left; }
+
+/*---pacote----*/
+
+
+
+/*---sobre----*/
+.tudo{
+    position: relative;
+    display: inline-block;
+    width:100%; height: 70vh;  
+    background-image: url(4.jpg); background-repeat: no-repeat; background-size: cover; background-position: left; background-attachment: fixed;
+}
+
+.colu {position: relative;
+    width: 33%; height: 100%; 
+    display: inline-block;
+    box-sizing: border-box;
+}
+.colu:last-child {border-right: none; width: 33%; margin-top: -2%;}
+
+.content         {position: relative; width: 99%; text-align: center; background-image: url(4.jpg);padding: 0;}
+.box             {position: absolute; margin-top: 40%; transform: translateY(-50%);box-sizing: border-box; padding: 100% 20% 0% 20%; text-align: center; transition: 0.5s; color: #fff; font-size:1em;vertical-align:top;}
+/*---sobre----*/
+
+.rodape{ text-align: center; width: 100%; clear: both;}
+
+
+
+/*-------------------------------*/
+
+.fieldset-fc{
+    font-weight: 100;
+    font-size: 1em;
+    border:none;
+    background-color: #fff;
+    width:80%;
+    text-align: left;
+    line-height:30px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 10%;
+ }
+
+.input-fc{
+    width: 55%;
+    text-align: left;
+    margin: 0;5
+    padding-left: 1%;
+    margin-left: 1%}
+
+.aaaa{
+    width: 30%;
+    display: inline-block;
+    bottom: 0;
+    text-align: center;
+    }
+textarea {margin-left: 1%; padding-left: 2%;}
+
+.botao-fc{
+    width:44%;
+    margin: 2%;
+    border: solid #999;
+    border-width: thin;
+    
+}
+
+.legenda-fc{
+    text-align: center;
+    font-size: 2em;}
+
+/*-------------------------*/
+
+#p { float: left; width: 39%; padding: 10% 0% 10% 10%; border-right: solid; border-width: thin; margin-bottom: 5%; margin-top: 5%;}
+#x { float: right; width: 40%; padding:10% 10% 10% 0%; margin-bottom: 5%; margin-top: 5%;}
+#m { margin-left: -34%;}
+
+.fieldset-r{
+   font-weight: 100;
+    font-size: 1em;
+    border:none;
+    background-color: #fff;
+    width:80%;
+    text-align: left;
+    line-height:30px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.input-r{ width: 80%;  text-align: left;  margin: 0;  padding-left: 1%; margin-left: 1%;}
+
+
+
+
+
+
+.topu  {font-family: 'PT Sans', sans-serif; font-size: 3em; margin-bottom: 0; color: #555; }
+.top1u {font-size: 1.2em; margin-bottom: 3%; color: #aaa; font-family: 'PT Sans', sans-serif;}
+.top3u {font-size: 1em; border:solid #555;border-width: thin; padding: 1% 3% 1% 3%; color: #555; }
+
+article a {font-family: 'PT Sans', sans-serif; font-size: 1.6em; color:#444;}
+.topl     {font-family: 'PT Sans', sans-serif; font-size: 1.4em; margin-top: 20%; color: #555; }
+.topl1     {font-family: 'PT Sans', sans-serif; font-size: 1.4em; margin-top: -4%; color: #aae;}
+/*-----------------------------------Corpo------------------------------------*/
+
+
+/*---regal----*/
+
+
+.imput   {position: absolute;
+    top:15%;
+    left:26%;
+    
+   background-color: white;color: black; width: 30%; font-size: 1em; padding: 1%; border-bottom: solid #aae;font-family: 'PT Sans', sans-serif;border-top:none; border-left: none; border-right: none;   direction: none; border-width: thin;  }
+
+/*---regal----*/
+
+#i       {float:right; width: 80%; padding: 10% 0% 25% 0%; text-align: center;}
+#j       {float:left; width: 13%; padding: 3% 0% 25% 0%;  border-right: solid #aaa; border-width: thin; padding-left: 2%; padding-right: 4%}
+/*----------------------------------/User--------------------------------------*/
+
+
+
+
+@media screen and (max-width: 1280px) {
+    
+  
+    
+#e{ 
+   
+    width: 100%;
+    background-color:white;
+    padding: 0% 0% 5% 0%;
+    text-align: center; }
+    
+    .tudo{text-align: center; padding-top: 5%;
+    width:100%; height: 100vh;  
+    background-image: url(4.jpg); background-repeat: no-repeat; background-size: cover; background-position: left; background-attachment: fixed;
+}
+
+
+.colu {padding:9%;margin: 0;
+    font-size: 0.8em;
+    width: 100%;height: 40%;
+    display:block;
+    box-sizing: border-box;
+}
+    
+    .colu:last-child {border-right: none; width: 100%; text-align: center;}
+    
+    .box             {width: 100%; align-items: center;text-align: center; margin-top: 8%;;box-sizing: border-box; padding: 0%;  opacity: 1;color: #fff; font-size:1.2em;}
+    
+       
+   
+    a     {font-size: 1em; text-decoration: none; margin-left: 2%; color:#000;}
+/*---regal----*/
+
+/*---topo----*/
+.top  {font-family: 'PT Sans', sans-serif; font-size: 3.5em;  line-height: 0.9em; margin: 0%;}
+.top1 {font-size: 1.5em;padding: 0;}
+.top3 {font-size: 1.3em; border:solid #000; border-width: thin; padding: 2%; margin-left: 0%;}
+.top4 {font-size: 1.3em; border:solid #fff; border-width: thin; padding: 2%; color: white; margin-left: 0%;}
+/*---topo----*/
+
+/*---meio----*/
+.re   {font-size: 0.8em ; border-width: thin;padding: 1% 4% 1% 4%; background-color: white;}
+.re1  {font-size: 0.8em; border-width: thin;padding: 1% 5% 1% 5%; margin-left: 6%; background-color: white;}
+.re2  {font-size: 1.3em; border-width: thin;padding: 0% 5% 0% 5%; margin-right: 50%; margin-left: 1%;}
+.re3  {font-size: 5em;margin-left: 5%}
+.me   {font-size: 3em; padding: 0;margin: 0;}
+.me1  {font-size: 1em; color: #444;padding: 0;margin: 0;}
+.me2  {width:100%;font-size: 1.8em; padding-top: 3%;margin: 0;}
+/*---meio----*/
+
+/*---sobre----*/
+.sob  {font-family: 'PT Sans', sans-serif; font-size: 3.5em;  line-height: 0.9em; margin-bottom: 0%; color: #fff;}
+.sob1 {font-size: 1.5em; color: #fff;}
+/*---sobre----*/
+.topp1 {font-size: 3em;width: 100%;color: #fff; text-align: center; margin-bottom: 0;}
+
+/*-----------------------------------Corpo------------------------------------*/
+
+/*---regal----*/
+input    {background-color: white; color: black; width: 100%; height:40px; font-size: 0.8em; padding-left: 2%;}
+nav  {
+    background:white;
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    line-height: 100px;
+    text-align:right;
+  
+         
+    
+    
+    animation-name: menu;
+    animation-duration: 2s;}
+
+  nav1{
+    width: 90%;
+    height:auto;
+    position: absolute;
+  
+     
+}
+ 
+img{
+        width: 15%;
+        float: left;
+        margin: 1%;
+    
+
+}
+.tex     {margin-left: 10%;}
+/*---regal----*/
+
+/*---topo----*/
+#a       {padding: 30% 0% 30% 0%; background-color: white; float: left; width: 100%; margin-bottom: 0;}
+#b       {padding: 30% 0% 30% 0%; float: right; width: 100%; text-align: center; color: white;background-image: url("server-2160321.jpg"); margin-bottom:-5%;background-repeat: no-repeat; background-size:cover; background-position: right; background-attachment: fixed;}
+/*---topo----*/
+
+/*---meio----*/
+#c       {float: left; background-image: url("5.jpg");background-repeat: no-repeat; background-size:cover; background-position:left; background-attachment: fixed; margin-bottom: 0;
+          padding: 10% 0% 20% 0%;width: 100%;}
+#d       { background-color: white; padding: 0;width: 100%; text-align: center; margin-bottom: 0;
+    height: 350px;}
+/*---meio----*/
+
+/*---pacote----*/
+#e       {padding: 5% 0% 5% 0%; background-color: white; width: 100%; margin-bottom: 0;
+    text-align: center;}
+
+.basic   {width: 50%; padding: 2% 0% 0% 0%; border: solid rgb(107, 142, 207); text-align: center; margin-left:25%; margin-bottom: 2%;}
+
+.oral    {padding-bottom: 10%; text-align: center; font-size: 3em;}
+
+.d2      {border:solid rgb(107, 142, 207); border-width: thin; margin-left: 25%;margin-right: 25%;padding: 2%;}
+
+button   {margin-top: 20%; background-color: rgb(107, 142, 207); color: #fff; width: 100%; font-size: 1.4em; border: solid rgb(107, 142, 207); padding: 2% 0% 2% 0%;}
+
+.z :hover{font-size: 0.9em;color: rgb(46, 106, 184);line-break: loose;text-decoration: none;}
+
+.z       {color: black; font-size: 0.7em; text-decoration: none;}
+
+.premiun {width: 50%; padding: 2% 0% 0% 0%; border: solid rgb(107, 142, 207); text-align: center;margin: 0%; margin-left:25%; margin-bottom: 2%;}
+
+.gold    {width: 50%; padding: 2% 0% 0% 0%; border: solid rgb(107, 142, 207); text-align: center;  margin-left:25%;margin-bottom: 2%;}
+
+/*---pacote----*/
+
+/*---sobre----*/
+    
+.tudo{
+    position: relative;
+    display: inline-block;
+    width:100%; height: 70vh;  
+    background-image: url(4.jpg); background-repeat: no-repeat; background-size: cover; background-position: left; background-attachment: fixed;
+}
+
+.colu {position: relative;
+    width: 100%; height: 30vh; 
+    display: inline-block;
+    box-sizing: border-box;
+}
+.colu:last-child {border-right: none; width: 100%; margin-top: -2%;}
+
+.content         {position: relative; width: 100%; text-align: center; background-image: url(4.jpg);padding: 0;}
+.box             {position: absolute; margin-top: 0%; transform: translateY(-50%);box-sizing: border-box; padding: 0% 20% 0% 20%; text-align: center; transition: 0.5s; opacity: 1;color: #fff; font-size: 1em;vertical-align:top;}
+
+
+    
+    .rodape{
+        width: 100%; text-align: center;
+        
+    }
+    .divisoes{
+        display: block;
+        padding: 1%;
+        text-align: center;
+    }
+    
+    #p { float: left; width: 100%; padding: 0%;margin-bottom: -20%; }
+#x { float: right; width: 100%; padding:0%; margin-bottom: 5%;}
+
+
+    
+.fieldset-fc{
+    font-weight: 100;
+    font-size: 1em;
+    border:none;
+    background-color: #fff;
+    max-height:20%;
+    text-align: left;
+    line-height:30px;
+    padding-left: 10px;
+    margin:10% 3%
+ }
+.input-fc{
+    max-width: 80%;
+    width:70%;
+    text-align: left;}  
+    
+.fieldset-r{
+   font-weight: 100;
+    font-size: 1em;
+    border:none;
+    background-color: #fff;
+    width:80%;
+    text-align: left;
+    line-height:30px;
+    padding: 3%;
+    margin:10% 5%
+}
+.input-r{ width: 90%;  text-align: left;  margin: 0;  padding-left: 2%; margin-left: 2%;}
+    
+    textarea {width: 70%;}
+    
+.aaaa{
+    width: 60%;
+    display: inline-block;
+    text-align: center; }  
+    
+    .teste{
+       align-items: center;
+    }
+    
+    
+    .imput   {position: absolute;
+    top:15%;
+    left:26%;
+    
+   background-color: white;color: black; width: 30%; font-size: 1em; padding: 1%; border-bottom: solid #aae;font-family: 'PT Sans', sans-serif;border-top:none; border-left: none; border-right: none;   direction: none; border-width: thin;  }
+
+/*---regal----*/
+
+#i       {float:right; width: 100%; padding: 20% 0% 20% 0%; text-align: center;}
+#j       {float:left; width: 100%; padding: 3% 0% 2% 0%;  border-right: solid #aaa; border-width: thin; padding-left: 2%; padding-right: 4%}
+   .topl     {font-family: 'PT Sans', sans-serif; font-size: 1.4em; margin-top: 0%; color: #555; }
+.topl1     {font-family: 'PT Sans', sans-serif; font-size: 1.4em; margin-top: 0%; color: #aae;} 
+    
+    
+}
+
+
+@keyframes  menu{
+    0%{opacity: 0;}
+    50%
+    100%{opacity: 1;}
+}
